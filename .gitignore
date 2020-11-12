@@ -55,3 +55,7 @@ cache
 # Packages #
 ############
 package-lock.json
+
+#DoNotUploads#
+##############
+default.json
