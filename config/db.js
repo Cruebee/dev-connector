@@ -5,6 +5,7 @@ const db = config.get('mongoURI');
 const connectDB = async () => {
   try {
     await mongoose.connect(db, {
+      // Unified Top and URL pars deprecation fixes
       useUnifiedTopology: true,
       useNewUrlParser: true,
     });
