@@ -39,6 +39,7 @@ Thumbs.db
 # Folders #
 ###########
 node_modules
+node_modules/
 
 # Cached Files #
 ################
